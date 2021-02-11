@@ -1,0 +1,52 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      text-align: center;
+      margin: 50px auto 0;
+      font-family: sans-serif;
+}
+
+.score{
+      width: 300px;
+      display: flex;
+      justify-content:space-around;
+      margin: 30px auto;
+}
+
+#area {
+      width: 306px;
+      border: 1px solid #000;
+      margin: 0 auto;
+      font-size: 0;
+}
+
+.cell {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      border: 1px solid #000;
+      cursor: pointer;
+      vertical-align: middle;
+      transition: background .1s;
+}
+
+.cell:hover {
+      background-color: #f1f1f1;
+}
+
+#btn {
+      margin: 50px auto;
+      background-color: #962424;
+      border: none;
+      width: 250px;
+      padding: 20px;
+      font-size: 20px;
+      color: #fff;
+      text-decoration: underline;
+}
